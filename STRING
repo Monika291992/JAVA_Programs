@@ -1,0 +1,58 @@
+String:
+++++++++
+
+1)It is a non-primitive data type because it references a memory location where data is stored in the heap memory like: array,
+   string.
+   
+2)It is the sequence of characters or array of characters Example:
+a) char[] c = {'m','o','n','i','k','a'}; // also available a interface (CharSquence)  which represents the sequence of characters
+b) String s = new String(c); is same as String s = "Monika";
+
+3) String is a class
+   public final class String extends Object implements CherSequence, Serialization, Comaparable
+   {
+   methods
+   }
+   
+4)String is an immutable object 
+   String s = new String(); or String s = "Monika";
+   
+5) To create string, there are 3 types of classes 
+a) String
+b) StringBuffer
+c) StringBuilder
+
+#String Constant or literal Pool: it is an area in heap memory where java stores the String literal values.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#String Methods:
+================
+
+1)Length(): counts the number of character and returns it in integer
+
+System.out.println(Name.length());
+
+2)isEmpty(): it includes in SDk 1.6, it returns true if the given string is empty or length of the string is 0, else it returns 
+             false
+             
+System.out.println(Name.isEmpty());
+
+3)trim();eliminates only leading and trailing spaces
+
+System.out.println(Value.trim()); // removes the spaces before and after the string
+
+4)equals(): compares the content of the two strings, if any character is not matched then it returns false and if all characters
+            are matched then it returns true
+            we can also check the string is empty or not 
+            
+System.out.println(s1.equals(s2));//returns boolean value
+
+5)equalsIgnoreCase(): compares a specified string to another, ignoring case considerations ie. lower or upper case
+
+System.out.println(s1.equalsIgnoreCase(s2));
+
+6)
+
+
+ 
